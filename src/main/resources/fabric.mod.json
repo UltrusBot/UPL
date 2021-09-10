@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "upl",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ultra Power Library",
+  "description": "This is UltraPowerLibrary, used by Ultrus for Mob Origins & Fantasy Origins",
   "authors": [
     "Ultra"
   ],
@@ -14,16 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/upl/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.ultrusbot.examplemod.ExampleMod"
+      "io.github.ultrusbot.upl.UltraPowerLibrary"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "upl.mixins.json"
   ],
 
   "depends": {
